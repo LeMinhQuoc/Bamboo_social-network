@@ -1,0 +1,30 @@
+CREATE DATABASE socialnet;
+use socialnet;
+CREATE TABLE users (
+    id int PRIMARY KEY AUTO_INCREMENT,
+    username varchar(250),
+    passwords varchar(250),
+    firstname varchar(250),
+    lastname varchar(250),
+    phone varchar(13),
+    age int,
+    email varchar(250),
+    gender boolean,
+    avata varchar(250),
+    type varchar(15)
+);
+
+
+INSERT INTO `users`(username,passwords,firstname,lastname,phone,age,email,gender,avata,type) values ('admin','admin','Quoc','Le','01694844753',23,'minhquoc7a3a@gmail.com',1,"image/1.jpg","admin");
+
+CREATE TABLE image(
+id int PRIMARY KEY AUTO_INCREMENT,
+userid int,
+image varchar(250),
+ustatus varchar(250),
+nlike int(4),
+coment varchar(250),
+liked varchar(250)
+);
+
+
