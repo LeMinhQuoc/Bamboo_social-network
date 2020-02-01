@@ -1,0 +1,80 @@
+li {
+    display: flex;
+}
+
+.menu1 {
+    position: sticky;
+    top: 0;
+    background: linear-gradient(to bottom, #66ffff 0%, #ffffff 100%);
+    width: auto;
+    height: 70px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+}
+
+.menu {
+    position: sticky;
+    top: 0;
+    background: linear-gradient(to bottom, #66ffff 0%, #ffffff 100%);
+    width: auto;
+    height: 50px;
+}
+
+.menu1 ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+}
+
+.conten {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height:  50px;
+}
+
+.menu ul li div button {
+    border: none;
+    background-color: Transparent;
+}
+
+.menu ul li div {
+    padding: 10px;
+    margin-left: 300px;
+}
+
+.menu1 ul li div button {
+    border: none;
+    background-color: Transparent;
+}
+
+.menu1 ul li div {
+    padding: 10px;
+}
+
+.menu ul li div button :hover {
+    border: 1px solid lightblue;
+    border-radius: 5px;
+    background-color: lightblue;
+}
+
+.icon {
+    padding: 20px;
+}
+
+.logout button {
+    border: none;
+    background: linear-gradient(to bottom, #66ffff 0%, #ffffff 100%);
+    margin-top: 20px;
+    border-radius: 8px;
+}
+
+.logout :hover {
+    background: linear-gradient(to bottom, #ffffff 0%, #66ffff 100%);
+}
+
+</style>

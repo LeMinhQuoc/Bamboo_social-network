@@ -1,0 +1,75 @@
+.login-form {
+    height: 300px;
+    width: 400px;
+    background-image: url('../image/blogin.jfif');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    position: relative;
+    animation-name: example;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    margin-left: 450px;
+}
+
+.header {
+    position: sticky;
+    top: 0;
+    background-color: lightblue;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.furter {
+    display: none;
+    margin-top: 800px;
+    position: absolute;
+    z-index: -1;
+    width: 1800px;
+    bottom: 0px;
+    height: 80px;
+    background: linear-gradient(to bottom, #10e31e 0%, #ffffff 100%);
+}
+
+@-webkit-keyframes example {
+    from {
+        top: 0px;
+    }
+    to {
+        top: 100px;
+        position: sticky;
+        top: 100px;
+    }
+}
+
+
+}
+div ul li {
+    list-style-type: none;
+}
+button {
+    border: "none";
+    border-radius: 5px;
+}
+.login-b {
+    background-color: lightgreen;
+    margin-top: 10px;
+}
+.signin-b {
+    background-color: lightblue;
+    margin-top: 3px;
+}
+.inputf {
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+}
+.signin {
+    display: flex;
+    flex-direction: column;
+}
